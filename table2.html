@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Second table</title>
+  <style>
+    table,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+
+    td {
+      width: 500px;
+    }
+
+    .center {
+      text-align: center;
+      height: 100px;
+    }
+
+    .body {
+      height: 400px;
+    }
+
+    .rodape {
+      text-align: center;
+      height: 100px;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <thead>
+      <tr class="center">
+        <td colspan="2" class="centro">TOPO</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="body">
+        <td style="width: 30%; text-align: center;">MENU</td>
+        <td style="text-align: center">CONTEÚDO</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr class="rodape">
+        <td colspan="2">RODAPÉ</td>
+      </tr>
+    </tfoot>
+  </table>  
+</body>
+</html>
